@@ -13,3 +13,4 @@ print(num_words)
 
 file = open("counts.txt", "w")
 file.write(f"Total number of words:\n {num_words}")
+file.close
